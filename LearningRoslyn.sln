@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{603871B0-94A3-49A8-B4CA-789D3F605804}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "analyzer", "analyzer", "{0EBD609F-7993-4D18-84BA-423AA6A13198}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "roslyn-api", "roslyn-api", "{DCB3DF6F-DB5D-4216-B703-FDA1892CF386}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source-generator", "source-generator", "{56A86581-6028-4989-9890-F28ED17D28E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynApi.ConsoleApp", "roslyn-api\RoslynApi.ConsoleApp\RoslynApi.ConsoleApp.csproj", "{5D8270A4-64DC-4C7D-8575-D86DE1CA4209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningRoslyn.SourceGenerator.ClientApp", "source-generator\LearningRoslyn.SourceGenerator.ClientApp\LearningRoslyn.SourceGenerator.ClientApp.csproj", "{41D70C19-9077-4561-B333-D80A784694FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningRoslyn.SourceGenerator.GenerateProperties", "source-generator\LearningRoslyn.SourceGenerator.GenerateProperties\LearningRoslyn.SourceGenerator.GenerateProperties.csproj", "{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D8270A4-64DC-4C7D-8575-D86DE1CA4209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8270A4-64DC-4C7D-8575-D86DE1CA4209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8270A4-64DC-4C7D-8575-D86DE1CA4209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8270A4-64DC-4C7D-8575-D86DE1CA4209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D70C19-9077-4561-B333-D80A784694FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D70C19-9077-4561-B333-D80A784694FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D70C19-9077-4561-B333-D80A784694FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D70C19-9077-4561-B333-D80A784694FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D8270A4-64DC-4C7D-8575-D86DE1CA4209} = {DCB3DF6F-DB5D-4216-B703-FDA1892CF386}
+		{41D70C19-9077-4561-B333-D80A784694FF} = {56A86581-6028-4989-9890-F28ED17D28E6}
+		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16} = {56A86581-6028-4989-9890-F28ED17D28E6}
+	EndGlobalSection
+EndGlobal
