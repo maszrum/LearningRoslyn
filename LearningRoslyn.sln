@@ -20,6 +20,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningRoslyn.SourceGenera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningRoslyn.SourceGenerator.GenerateProperties", "source-generator\LearningRoslyn.SourceGenerator.GenerateProperties\LearningRoslyn.SourceGenerator.GenerateProperties.csproj", "{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeConst.CSharp", "analyzer\MakeConst.CSharp\MakeConst.CSharp.csproj", "{B9C6A84B-2DA7-4573-8256-3DE75E3104DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeConst.CSharp.Tests", "analyzer\MakeConst.CSharp.Tests\MakeConst.CSharp.Tests.csproj", "{FA0C658F-F5F7-46C5-8CF8-DF85B7D88EA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,10 +42,20 @@ Global
 		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C6A84B-2DA7-4573-8256-3DE75E3104DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C6A84B-2DA7-4573-8256-3DE75E3104DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C6A84B-2DA7-4573-8256-3DE75E3104DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C6A84B-2DA7-4573-8256-3DE75E3104DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0C658F-F5F7-46C5-8CF8-DF85B7D88EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0C658F-F5F7-46C5-8CF8-DF85B7D88EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0C658F-F5F7-46C5-8CF8-DF85B7D88EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0C658F-F5F7-46C5-8CF8-DF85B7D88EA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5D8270A4-64DC-4C7D-8575-D86DE1CA4209} = {DCB3DF6F-DB5D-4216-B703-FDA1892CF386}
 		{41D70C19-9077-4561-B333-D80A784694FF} = {56A86581-6028-4989-9890-F28ED17D28E6}
 		{CD41AAE1-52AA-4AC8-907D-7E7767E9DB16} = {56A86581-6028-4989-9890-F28ED17D28E6}
+		{B9C6A84B-2DA7-4573-8256-3DE75E3104DC} = {0EBD609F-7993-4D18-84BA-423AA6A13198}
+		{FA0C658F-F5F7-46C5-8CF8-DF85B7D88EA9} = {0EBD609F-7993-4D18-84BA-423AA6A13198}
 	EndGlobalSection
 EndGlobal
