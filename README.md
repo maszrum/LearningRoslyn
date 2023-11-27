@@ -38,3 +38,4 @@ TODO
 - Roslyn Quoter https://roslynquoter.azurewebsites.net/
 - How to debug source generators in Rider https://blog.jetbrains.com/dotnet/2023/07/13/debug-source-generators-in-jetbrains-rider/
 - Source generators cookbook https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md
+- Incremental generators documentation https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md
